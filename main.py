@@ -5,6 +5,7 @@ import requests
 import time
 
 token = Encryption.token
+empty = ""
 
 with open('test2.csv', encoding='utf-8-sig') as csv_file:
         csv_reader = csv.DictReader(csv_file)
@@ -14,7 +15,7 @@ with open('test2.csv', encoding='utf-8-sig') as csv_file:
                         del i['Prefix']
                 if i['FirstName'] == "":
                         del i['FirstName']
-                if not i['LastName']:
+                if i['LastName'] == empty:
                         del i['LastName']
                 if i['Suffix'] == empty:
                         del i['Suffix']
