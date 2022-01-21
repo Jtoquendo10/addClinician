@@ -10,7 +10,7 @@ with open('test2.csv', encoding='utf-8-sig') as csv_file:
         csv_reader = csv.DictReader(csv_file)
         for i in csv_reader:
                 print(i)
-                #if i['Prefix'] == empty:
+                if i['Prefix'] == empty:
                         del i['Prefix']
                 if i['FirstName'] == "":
                         del i['FirstName']
