@@ -1,2 +1,2 @@
 ﻿ClinicName,ClinicNameLongForm,Address1,Address2,Active,City,State,ZipCode,PrimaryPhone,PrimaryPhoneType,PrimaryFax,PhoneAdditional1,PhoneAdditionalType1,PhoneAdditional2,PhoneAdditionalType2,PhoneAdditional3,PhoneAdditionalType3
-Doggy Dog 2,Doggy Dog part 2 longname,67 Test st,,TRUE,Boston,MA,05634,(573) 498-0293,5,(573) 498-0293,(573) 498-0293,2,,,,
+Doggy Dog 2,Doggy Dog part 2 longname,67 Test st,,TRUE,Boston,MA,5634,(573) 498-0293,5,(573) 498-0293,(573) 498-0293,2,,,,
