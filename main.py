@@ -6,10 +6,11 @@ import time
 
 token = Encryption.token
 empty = ""
+        #Scroll to line 141
 
 def addClinician():
-        with open('test2.csv', encoding='utf-8-sig') as csv_file:
-                csv_reader = csv.DictReader(csv_file)
+        with open('addClinician.csv', encoding='utf-8-sig') as csv_file:
+                csv_reader = csv.DictReader(csv_file, dialect='excel')
                 try:
                         for i in csv_reader:
                                 print(i)
@@ -55,16 +56,12 @@ def addClinician():
                                         del i['PhoneAdditionalType3']
                                 if i['DEANumber']== empty:
                                         del i['DEANumber']
-                                if i['DEANumbers']== empty:
-                                        del i['DEANumbers']
                                 if i['NADEANumbers'] == empty:
                                         del i['NADEANumbers']
                                 if i['MedicalLicenseNumbers'] == empty:
                                         del i['MedicalLicenseNumbers']
                                 if i['NPINumber'] == empty:
                                         del i['NPINumber']
-                                if i['ClinicianRoleType'] == empty:
-                                        del i['ClinicianRoleType']
                                 if i['EPCSRequested'] == empty:
                                         del i['EPCSRequested']
                                 if i['Active'] == empty:
@@ -136,6 +133,8 @@ def addClinic():
 
                 except csv.Error as e:
                         sys.exit('file %s, line %d: %s' % (filename, reader.line_num, e))
+
+        #Enter 1 to add clinicians or enter 2 to add a clinic
 
 selection = input('Please select an operation:\n 1. Add Clincician\n 2. Add Clinic\n')
 try:

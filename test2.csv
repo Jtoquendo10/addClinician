@@ -1,4 +1,0 @@
-﻿Prefix,FirstName,MiddleName,LastName,Suffix,DateOfBirth,Email,Address1,Address2,City,State,ZipCode,PrimaryPhone,PrimaryPhoneType,PrimaryFax,PhoneAdditional1,PhoneAdditionalType1,PhoneAdditional2,PhoneAdditionalType2,PhoneAdditional3,PhoneAdditionalType3,DEANumber,DEANumbers,NADEANumbers,MedicalLicenseNumbers,NPINumber,ClinicianRoleType,EPCSRequested,Active,ClinicianRoleType
-,Josh,,Oquendo,,9/13/2000,,24 Test St,,Bowling Lane,MA,32394,472-274-9283,5,472-274-9283,,,,,,,,,,,,6,FALSE,TRUE,2
-,Roger,,Tell,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Vily,ads,wd,,,,,,,,,,,,,,,,,,,,,,,,,,
